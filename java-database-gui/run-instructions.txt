@@ -1,0 +1,14 @@
+The database connected should be a vaariant of mySQL.
+
+The command to run:
+java -classpath ".:mysql-connector-java-8.0.16.jar" DatabaseGui
+
+The mysql-connector-java-8.0.16.jar file must be in the same directory.
+
+The program will first prompt on the commandline for the database information, then the user can use solely the GUI.
+On the left is a list of the tables, which will display the table conents when double-clicked or by pressing enter when the table is highlighted.
+On the right is an editable text box which will send SQL commands to the database after clicking the submit button and display the results.
+On the bottom is a non-editable text box which shows the results of the SQL queries.
+
+Testing database: MariaDB ver 15.1 Distrib 10.6.21-MariaDB, for debian-linux-gnu (x86_64) using  EditLine wrapper
+Java version : openjdk 11.0.26
